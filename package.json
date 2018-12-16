@@ -1,0 +1,38 @@
+{
+  "name": "abomination",
+  "version": "0.1.0",
+  "author": "Markus Oberlehner",
+  "homepage": "https://github.com/maoberlehner/abomination-a-concept-for-a-static-html-dynamic-javascript-hybrid-application",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && vue-cli-service build --name script --dest dist/js --target lib .abomination/script.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@avalanche/generic-box-sizing-reset": "^4.0.0-alpha.5",
+    "@avalanche/setting-spacings": "^4.0.0-alpha.6",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "node-sass-magic-importer": "^5.2.0",
+    "prerender-spa-plugin": "^3.4.0",
+    "reset-css": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.21",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "devDependencies": {
+    "@avalanche/eslint-config": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.2.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 10",
+    "not op_mini all"
+  ]
+}
