@@ -46,7 +46,11 @@ const productionPlugins = [
       renderedRoute.html = renderedRoute.html
         .replace(/<\/body>/, `${scriptTags}</body>`);
 
-      fs.writeFile(`${__dirname}/.abomination/script.js`, script, (error) => { console.log(error); });
+      const dir = `${__dirname}/.abomination`;
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir);
+      }
+      fs.writeFile(`${dir}/script.js`, script, (error) => { console.log(error); });
 
       return renderedRoute;
     },
