@@ -14,6 +14,20 @@
   resolved "https://registry.yarnpkg.com/@avalanche/generic-box-sizing-reset/-/generic-box-sizing-reset-4.0.0-alpha.5.tgz#aa3934c23a8bc2194b310a8e122f8acd112f5431"
   integrity sha1-qjk0wjqLwhlLMQqOEi+KzREvVDE=
 
+"@avalanche/object-container@^4.0.0-alpha.8":
+  version "4.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@avalanche/object-container/-/object-container-4.0.0-alpha.8.tgz#53345a7e66859bfa199287a3262661d1a48826bc"
+  integrity sha1-UzRafmaFm/oZkoejJiZh0aSIJrw=
+  dependencies:
+    "@avalanche/setting-spacings" "^4.0.0-alpha.6"
+
+"@avalanche/object-vertical-spacing@^4.0.0-alpha.5":
+  version "4.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@avalanche/object-vertical-spacing/-/object-vertical-spacing-4.0.0-alpha.5.tgz#b907a304e2dd58fefa407b255499e112503a5801"
+  integrity sha1-uQejBOLdWP76QHslVJnhElA6WAE=
+  dependencies:
+    "@avalanche/setting-spacings" "^4.0.0-alpha.6"
+
 "@avalanche/setting-spacings@^4.0.0-alpha.6":
   version "4.0.0-alpha.6"
   resolved "https://registry.yarnpkg.com/@avalanche/setting-spacings/-/setting-spacings-4.0.0-alpha.6.tgz#d395e3b4233601336c6e8759dd3499171681dbfb"
@@ -5031,6 +5045,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+marked@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.5.2.tgz#3efdb27b1fd0ecec4f5aba362bddcd18120e5ba9"
+  integrity sha512-fdZvBa7/vSQIZCi4uuwo2N3q+7jJURpMVCcbaX0S1Mg65WZ5ilXvC67MviJAsdjqqgD+CEq4RKo5AYGgINkVAA==
 
 md5.js@^1.3.4:
   version "1.3.5"
